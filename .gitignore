@@ -1,0 +1,11 @@
+# plugin files
+fish/.config/fish/fish_variables
+fish/.config/fish/fishd.*
+
+# nvim stuff
+nvim/.config/nvim/lazy-lock.json
+nvim/.config/nvim/.repro/
+
+# local files
+*.local
+.DS_Store
