@@ -50,8 +50,6 @@ alias fm='yazi'
 
 # modern cli tools
 alias cat='bat --style=auto'
-alias grep='rg'
-alias find='fd'
 alias top='btop'
 alias ps='procs'
 alias du='dust'
