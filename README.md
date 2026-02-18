@@ -27,10 +27,11 @@ cd ~/Documents/dotfiles
 stow fish kitty starship nvim git
 ```
 
-**important:** setup your git config first:
+**important:** create `~/.gitconfig_device` with your info:
 ```bash
-git config --global user.name "Your Name"
-git config --global user.email "your@email.com"
+[user]
+    name = Your Name
+    email = your@email.com
 ```
 
 ## syncing

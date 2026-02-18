@@ -1,6 +1,6 @@
-# setup your own user info:
-# git config --global user.name "Your Name"
-# git config --global user.email "your@email.com"
+# device-specific settings
+[include]
+    path = ~/.gitconfig_device
 
 [core]
     editor = nvim
@@ -44,3 +44,4 @@
     last = log -1 HEAD
     unstage = reset HEAD --
     visual = !gitk
+
